@@ -1,0 +1,13 @@
+{
+    "msg": "ok",
+    "data": {
+        "total": 4,
+        "list": [
+            {"id": 1, "url": "http://kwimg1.kuwo.cn/star/upload/6/40/1584244870962_.jpg"},
+            {"id": 1, "url": "http://kwimg1.kuwo.cn/star/upload/26/71/1584245134025_.jpg"},
+            {"id": 1, "url": "http://kwimg1.kuwo.cn/star/upload/26/71/1584245134025_.jpg"},
+            {"id": 1, "url": "http://kwimg4.kuwo.cn/star/upload/47/52/1557311466098_.png"}
+
+        ]
+    }
+} 

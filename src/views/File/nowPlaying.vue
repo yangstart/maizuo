@@ -1,6 +1,69 @@
 <template>
   <div>
     <ul >
+      <!-- <li v-for="(item,index) in list" :key="index" @click="handle(item.filmId)">
+          <img :src="item.poster" alt="">
+          <p>{{item.name}}</p>
+          <p>观众评分：<span class="grade">{{item.grade}}</span></p>
+          <p>主演:{{item.director}}</p>
+          <p class="dot">演员{{item.actors | getAct}}</p>
+          <p>{{item.nation}} | {{item.runtime}}分钟</p>
+          <button class="buy">购票</button>
+      </li>
+      <li v-for="(item,index) in list" :key="index" @click="handle(item.filmId)">
+          <img :src="item.poster" alt="">
+          <p>{{item.name}}</p>
+          <p>观众评分：<span class="grade">{{item.grade}}</span></p>
+          <p>主演:{{item.director}}</p>
+          <p class="dot">演员{{item.actors | getAct}}</p>
+          <p>{{item.nation}} | {{item.runtime}}分钟</p>
+          <button class="buy">购票</button>
+      </li>
+      <li v-for="(item,index) in list" :key="index" @click="handle(item.filmId)">
+          <img :src="item.poster" alt="">
+          <p>{{item.name}}</p>
+          <p>观众评分：<span class="grade">{{item.grade}}</span></p>
+          <p>主演:{{item.director}}</p>
+          <p class="dot">演员{{item.actors | getAct}}</p>
+          <p>{{item.nation}} | {{item.runtime}}分钟</p>
+          <button class="buy">购票</button>
+      </li>
+      <li v-for="(item,index) in list" :key="index" @click="handle(item.filmId)">
+          <img :src="item.poster" alt="">
+          <p>{{item.name}}</p>
+          <p>观众评分：<span class="grade">{{item.grade}}</span></p>
+          <p>主演:{{item.director}}</p>
+          <p class="dot">演员{{item.actors | getAct}}</p>
+          <p>{{item.nation}} | {{item.runtime}}分钟</p>
+          <button class="buy">购票</button>
+      </li>
+      <li v-for="(item,index) in list" :key="index" @click="handle(item.filmId)">
+          <img :src="item.poster" alt="">
+          <p>{{item.name}}</p>
+          <p>观众评分：<span class="grade">{{item.grade}}</span></p>
+          <p>主演:{{item.director}}</p>
+          <p class="dot">演员{{item.actors | getAct}}</p>
+          <p>{{item.nation}} | {{item.runtime}}分钟</p>
+          <button class="buy">购票</button>
+      </li>
+      <li v-for="(item,index) in list" :key="index" @click="handle(item.filmId)">
+          <img :src="item.poster" alt="">
+          <p>{{item.name}}</p>
+          <p>观众评分：<span class="grade">{{item.grade}}</span></p>
+          <p>主演:{{item.director}}</p>
+          <p class="dot">演员{{item.actors | getAct}}</p>
+          <p>{{item.nation}} | {{item.runtime}}分钟</p>
+          <button class="buy">购票</button>
+      </li>
+      <li v-for="(item,index) in list" :key="index" @click="handle(item.filmId)">
+          <img :src="item.poster" alt="">
+          <p>{{item.name}}</p>
+          <p>观众评分：<span class="grade">{{item.grade}}</span></p>
+          <p>主演:{{item.director}}</p>
+          <p class="dot">演员{{item.actors | getAct}}</p>
+          <p>{{item.nation}} | {{item.runtime}}分钟</p>
+          <button class="buy">购票</button>
+      </li> -->
       <li v-for="(item,index) in list" :key="index" @click="handle(item.filmId)">
           <img :src="item.poster" alt="">
           <p>{{item.name}}</p>
