@@ -7,9 +7,9 @@
     <router-link to="/film/nowPlaying" tag="span" class="now_fu">正在热映</router-link>
     <router-link to="/film/commingSoon" tag="span" class="now_fu">即将上映</router-link>
   </nav>
-  <keep-alive>
+  <!-- <keep-alive> -->
     <router-view></router-view>
-  </keep-alive>
+  <!-- </keep-alive> -->
 
 </div>
 </template>

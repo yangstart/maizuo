@@ -20,6 +20,9 @@
 <script>
 import axios from 'axios'
 import swiper from './detailSwiper'
+import {SHOWMUTATION} from '@/type'
+
+// import bus from '@/bus'
 export default {
   data(){
     return {
@@ -27,10 +30,15 @@ export default {
     }
   },
   components: {swiper},
+ beforeMount(){
+    // this.$store.state.barIsShow=false
+    this.$store.commit(SHOWMUTATION, false)
+ },
+  
   mounted () {
     var id = this.$route.params.id
     axios({
-      url: 'https://m.maizuo.com/gateway?filmId=4972&k=2131728',
+      url: `https://m.maizuo.com/gateway?filmId=${id}&k=2131728`,
       headers: {
         'X-Client-Info': '{"a":"3000","ch":"1002","v":"5.0.4","e":"1584235597777389081625"}',
         'X-Host': 'mall.film-ticket.film.info'
@@ -40,7 +48,12 @@ export default {
         this.list = res.data.data.film
       }
     })
-  }
+  },
+  beforeDestroy() {
+    // this.$store.state.barIsShow=true
+    this.$store.commit(SHOWMUTATION, true)
+  },
+
 }
 </script>
 <style>

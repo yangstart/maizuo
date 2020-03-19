@@ -111,7 +111,7 @@ export default {
             this.list = res.data.data.films
         }
     })
-  }
+  },
 
 }
 </script>
